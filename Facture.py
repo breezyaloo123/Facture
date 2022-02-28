@@ -15,12 +15,14 @@ def facture(price):
         "ndiaye": ndiaye,
         "maty": maty   
     }
+    print("Voici ci-dessous le montant que chaque personne doit payer:")
     #reach each value in the map
     for key, value in map.items():
         
         amount = price * value / totalpoints
         #print the value
-        print(key, ":", amount)
+        
+        print(key, " = ", amount)
 
 #call the function
 facture(15000)
