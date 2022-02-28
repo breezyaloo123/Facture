@@ -18,9 +18,9 @@ def facture(price):
     #reach each value in the map
     for key, value in map.items():
         
-        res = price * value / totalpoints
+        amount = price * value / totalpoints
         #print the value
-        print(key, ":", res)
+        print(key, ":", amount)
 
 #call the function
-facture(13200)
+facture(15000)
