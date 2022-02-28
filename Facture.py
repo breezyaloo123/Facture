@@ -1,5 +1,3 @@
-
-
 #create a function with parameters
 def facture(price):
     #define variables
